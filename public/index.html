@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Document</title>
+</head>
+
+<body>
+    <section class="">
+        <nav class="container mx-auto px-10 mt-9 w-auto">
+            <div class="md:hidden cursor-pointer" id="burger">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-10 h-10">
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
+            />
+          </svg>
+            </div>
+            <ul class="md:flex md:justify-between items-center hidden" id="menu">
+                <li>
+                    <a href="#"><img src="img/esprit.jpg" alt="logo" class="lg:w-52 w-32" />
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#">
+                        <span class="text-primary hover:text-blue-950 lg:text-navSize text-base font-body">Home.</span
+              ></a
+            >
+          </li>
+          <li>
+            <a href="#"
+              ><span
+                class="text-primary hover:text-blue-950 lg:text-navSize text-base font-body"
+                >About us.</span
+              ></a
+            >
+          </li>
+          <li>
+            <a href="#"
+              ><span
+                class="text-primary hover:text-blue-950 lg:text-navSize text-base font-body"
+                >Portfolio.</span
+              ></a
+            >
+          </li>
+          <li>
+            <a href="#"
+              ><span
+                class="text-primary hover:text-blue-950 lg:text-navSize text-base font-body"
+                >Contact us.</span
+              ></a
+            >
+          </li>
+        </ul>
+      </nav>
+      <!--end nav-->
+    </section>
+
+    <section
+      class="container mx-auto px-20 mt-16 w-auto grid gap-4 grid-cols-1 lg:grid-cols-2"
+    >
+      <div>
+        <div
+          class="text-primary lg:text-heroSize text-3xl lg:leading-none font-semibold"
+        >
+          The Spirit of Digital Agency.
+        </div>
+        <div class="text-tertiary text-pSize mt-10">
+          Vestibulum ac diam sit amet quam vehicula elementum amet est on dui.
+          Nulla porttitor accumsan tincidunt.
+        </div>
+
+        <button
+          class="hover:bg-red-600 rounded-full bg-secondary items-center text-white p-3 lg:w-52 w-32 mt-14 lg:text-pSize text-sm font-semibold"
+        >
+          More about us
+        </button>
+      </div>
+
+      <div><img src="img/Image.png" alt="" /></div>
+    </section>
+
+    <section class="my-10 container mx-auto px-20 grid lg:grid-cols-3 gap-4">
+      <div class="">
+        <h1
+          class="text-primary font-semibold text-[38px] xl:text-titleOne pb-4"
+        >
+          Anything you need, we've got you covered
+        </h1>
+        <button
+          class="hover:bg-red-600 rounded-full bg-secondary items-center text-white p-3 lg:w-52 w-32 mt-14 lg:text-pSize text-sm font-semibold"
+        >
+          Get in touch
+        </button>
+      </div>
+      <div class="bg-secondary mx-10">
+        <img class="pb-8 m-7" src="./img/Briefcase Icon.png" alt="Briefcase" />
+        <h1
+          class="text-primary font-semibold text-[24px] xl:text-[38px] pb-8 m-7"
+        >
+          Web & Graphic Design
+        </h1>
+        <p class="text-primary pb-6 m-7">
+          Vestibulum ac diam sit amet quam vehicula elementum amet est on dui.
+          Nulla porttitor accumsan tincidunt.
+        </p>
+      </div>
+      <div class="border-2 border-red-600 mx-10">
+        <img class="pb-8 m-7" src="./img/Code Icon.png" alt="CodeIcon" />
+        <h1
+          class="text-primary font-semibold text-[24px] xl:text-[38px] pb-8 m-7"
+        >
+          Web & App Development
+        </h1>
+        <p class="text-primary pb-6 m-7">
+          Vestibulum ac diam sit amet quam vehicula elementum amet est on dui.
+          Nulla porttitor accumsan tincidunt.
+        </p>
+      </div>
+    </section>
+
+    <section class="my-10 mx-20 container mx-auto px-20">
+      <div class="flex flex-col">
+        <h1 class="text-primary text-[38px] xl:text-[50px] pb-8">
+          Get in touch
+        </h1>
+        <div class="py-6 grid lg:grid-cols-2">
+          <input class="bg-primary h-12" type="text" placeholder="Your email" />
+        </div>
+        <textarea
+          class="py-2 bg-primary h-36"
+          name="message"
+          cols="30"
+          rows="10"
+          placeholder="Message here"
+        ></textarea>
+        <div class="flex justify-center">
+          <button
+            class="py-4 hover:bg-red-600 rounded-full bg-secondary text-white p-2 lg:w-52 w-32 mt-14 lg:text-pSize text-sm font-semibold"
+          >
+            Send message
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <section class="bg-primary flex justify-center">
+      <div class="h-51 flex flex-col my-10">
+        <h1
+          class="text-secondary font-semibold text-[38px] xl:text-[50px] pb-8"
+        >
+          CREATIVITY ABOVE
+        </h1>
+        <div class="flex flex-col items-center md:flex-row justify-between">
+          <a class="text-white font-semibold" href="#"> Home </a>
+          <a class="text-white font-semibold" href="#"> About us </a>
+          <a class="text-white font-semibold" href="#"> Portfolio </a>
+          <a class="text-white font-semibold" href="#"> Contact us </a>
+        </div>
+      </div>
+    </section>
+
+    <script src="script.js"></script>
+  </body>
+</html>
